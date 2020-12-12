@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&display=swap');
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    background: #212121;
+    border: 2px solid steelblue;
+    height: 50px;
+    display: flex;
+}
+#menu{   
+    z-index: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.logo{    
+    z-index: 1;
+    box-sizing: content-box;
+    display: block;
+    position: static;
+    float: none;
+    line-height: normal;
+}
+.n1{
+    
+    height: 20px;
+    cursor: pointer;
+    color: #6C6C6C;
+    padding: 10px;
+    border: 1px solid steelblue; 
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
