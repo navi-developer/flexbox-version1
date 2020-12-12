@@ -14,10 +14,13 @@
                 <img class="logo" src="src/img/logo_youtube.png" alt="" style="border: 1px solid red;">
             </div>
             <div id="menu">
-                <div class="n1">Principal</div>
-                <div class="n1">Explore</div>
-                <div class="n1">Biblioteca</div>
-                <div class="n1"><i class="fas fa-search"></i> Buscar</div>
+                <div id="Smenu" class="n1">Principal</div>
+                <div id="Smenu2" class="n1">Explore</div>
+                <div id="Smenu3" class="n1">Biblioteca</div>
+                <div id="buscar" onclick="myBuscar()" class="n1" ><i class="fas fa-search"></i> Buscar</div>
+                <div id="buscador" onclick="retroceder()"  class="n8">
+                    <i  class="icono fas fa-arrow-left"></i><input type="text" placeholder="Buscar" >
+                </div>
             </div>
             <div id="usuario">
 
@@ -25,5 +28,7 @@
 
     </nav>
     <!--FIN DE CONTENEDOR NAV-->
+
+    <script src="src/js/main.js"></script>
 </body>
 </html>

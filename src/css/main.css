@@ -34,3 +34,26 @@
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
 }
+#buscador i{
+    margin-right: 10px;
+    color: #6C6C6C;
+}
+#buscador{
+   display: flex;
+    display: none;
+    /* display: block; */
+    /* padding: 20px; */
+}
+input{
+     /* border: 3px solid red; */
+     border: none;
+     padding: 15px 20px 15px 10px;
+            /* Arr Der  Abj  Izq*/
+    margin: auto;
+    width: 30rem;
+     
+}
+input::placeholder{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+}
